@@ -1,4 +1,5 @@
 Always get public ip address
+
 Device : zte f670 v2.0
 
 Installation requirements :
