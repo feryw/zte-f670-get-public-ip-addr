@@ -6,4 +6,7 @@ Installation requirements :
 2. selenium python module
 3. chromedriver for linux
 
+Notes :
+- adjust ont_pass value to your ont superadmin password 
+
 Tested on Debian 10, may aplicable on other *nix OS
