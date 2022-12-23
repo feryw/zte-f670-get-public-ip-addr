@@ -8,6 +8,7 @@ Installation requirements :
 3. chromedriver for linux
 
 Notes :
-- adjust ont_pass value to your ont superadmin password 
+- adjust ont_pass value to your ont superadmin password
+- adjust line 50 to a valuematch to your VLAN number
 
 Tested on Debian 10, may aplicable on other *nix OS
