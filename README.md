@@ -9,6 +9,6 @@ Installation requirements :
 
 Notes :
 - adjust ont_pass value to your ont superadmin password
-- adjust line 50 to a valuematch to your VLAN number
+- adjust line 50 to a value that match to your VLAN number
 
 Tested on Debian 10, may aplicable on other *nix OS
