@@ -53,7 +53,7 @@ while True:
   driver.find_element(By.XPATH,"/html/body/div[3]/div[1]/div[1]/table/tbody/tr/td/table/tbody/tr[1]/td[2]").click()
   driver.find_element(By.XPATH,"/html/body/div[3]/div[1]/div[1]/table/tbody/tr/td/table/tbody/tr[3]/td[2]/font").click()
   time.sleep(3)
-  ipaddr = driver.find_element(By.ID, "TextPPPIPAddress0").get_attribute('value')
+  ip_addr = driver.find_element(By.ID, "TextPPPIPAddress0").get_attribute('value')
   dt = datetime.datetime.now()
   print(dt.strftime("%Y-%m-%d %H:%M:%S") +" "+ip_addr+"\n")
   logfile.write(dt.strftime("%Y-%m-%d %H:%M:%S")+" "+ip_addr+"\n")
