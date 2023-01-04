@@ -57,6 +57,7 @@ while True:
   dt = datetime.datetime.now()
   print(dt.strftime("%Y-%m-%d %H:%M:%S") +" "+ip_addr+"\n")
   logfile.write(dt.strftime("%Y-%m-%d %H:%M:%S")+" "+ip_addr+"\n")
+  time.sleep(5)
  driver.quit()
  logfile.close()
  time.sleep(30)
