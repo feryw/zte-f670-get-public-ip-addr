@@ -10,7 +10,7 @@ Installation requirements :
 Notes :
 - adjust ont_ip as your configuration
 - adjust ont_pass value to your ont superadmin password
-- adjust line 38 to a reasonble directory path on your system
+- adjust line 38 to a reasonable directory path on your system
 - adjust line 50 to a value that match to your VLAN number
 
 Tested on Debian 10, may aplicable on other *nix OS
