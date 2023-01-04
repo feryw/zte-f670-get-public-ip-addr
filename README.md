@@ -1,6 +1,7 @@
 Always get public ip address
 
-Device : zte f670 v2.0
+Device : zte f670 
+Hardware revision : v2.0
 
 Installation requirements :
 1. python 3
