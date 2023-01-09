@@ -6,7 +6,10 @@ Hardware revision : v2.0
 Installation requirements :
 1. python 3
 2. selenium python module
-3. chromedriver for linux
+3. google chrome
+4. chromedriver for linux
+
+This script run chrome in headless mode
 
 Notes :
 - adjust ont_ip as your configuration
