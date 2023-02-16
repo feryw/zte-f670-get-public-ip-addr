@@ -20,7 +20,7 @@ ont_pass = "changeme"
 
 chrome_path = Service(executable_path='/home/user/zte-f670-get-public-ip-addr/chromedriver')
 browser_options = Options()
-browser_options.add_argument('headless')
+browser_options.add_argument('headless=new')
 
 while True:
  driver = webdriver.Chrome(service=chrome_path, options=browser_options)
