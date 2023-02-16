@@ -5,9 +5,9 @@ Hardware revision : v2.0
 
 Installation requirements :
 1. python 3
-2. selenium python module
-3. google chrome
-4. chromedriver for linux
+2. selenium==4.8.0
+3. google chrome >= 109
+4. chromedriver >=109 for linux (make sure it's version matching to chrome version)
 
 This script run chrome in headless mode
 
